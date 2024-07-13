@@ -43,7 +43,7 @@ window.geometry('1920x1080')
 window.configure(background='black')
 #window.minsize(width=500, height=500)
 
-background_image = PhotoImage(file='1234.png')
+background_image = PhotoImage(file='background.png')
 
 # Create a label widget to display the image
 background_label = Label(window, image=background_image)
